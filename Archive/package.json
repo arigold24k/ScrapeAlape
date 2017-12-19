@@ -1,0 +1,31 @@
+{
+  "name": "ScrapeAlape",
+  "version": "1.0.0",
+  "description": "Scrape Pages and allows you to make notes on titles of things",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arigold24k/ScrapeAlape.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arigold24k/ScrapeAlape/issues"
+  },
+  "homepage": "https://github.com/arigold24k/ScrapeAlape#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.13.7",
+    "morgan": "^1.9.0",
+    "request": "^2.83.0"
+  }
+}
