@@ -37,6 +37,10 @@ textarea {
     color: yellow;
 }
 
+.articlelink {
+    color: gold;
+}
+
 .notes {
     background-image: url(../public/images/notepad.jpeg);
 }
